@@ -4,13 +4,29 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2024/02/19/hello-world/"/>
-      <url>/2024/02/19/hello-world/</url>
+      <title>欢迎来到我的博客！</title>
+      <link href="/2024/02/19/MyBlog/"/>
+      <url>/2024/02/19/MyBlog/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>欢迎来到鲶大禹の小窝吖~</p><span id="more"></span><p>没错，你见证了这个博客的历史，这将是我的第一篇博客。本博客由Hexo搭建，并使用了<a href="https://github.com/tangyuxian/hexo-theme-tangyuxian?tab=readme-ov-file">糖羽仙</a>大佬的博客主题。接下来，我将简单介绍一下我所持有的网站，以及开始我的博客之旅！</p><h2 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h2><p>本网站所使用的编写语言均为编写网页的标记语言。目前，本网站整体框架由Hexo搭建，并使用其官方主题。而我所写的博客，仅用到了Markdown语言编写。截止到2024年2月20日，这是我进入高中后创下的第二个网站。</p><p>此网站将会记录<font color="#e67249">“鲶大禹的专业课笔记本”</font>的更新记录，也会将部分“食用”方法记录在博客中。没有太多时间和精力自己设计一个网站，所以就使用别人嵌套的主题好啦~ （很简单的！如果你们想学我可以出教程<small><em>来自大禹的肯定~</em></small>）</p><p>本网站全权开源托管在Gitee上，因访问速度等因素，<font color="#e67249">“鲶大禹的专业课笔记本”</font>也将于这两天内迁移到Gitee上。</p><p>后期有考虑更改域名……但也是后期的事情，所以现在不考虑，反正就算更改了网址我也会告诉你们的（或放在这里）</p><h2 id="我的联系方式"><a href="#我的联系方式" class="headerlink" title="我的联系方式"></a>我的联系方式</h2><h4 id="微信"><a href="#微信" class="headerlink" title="微信"></a>微信</h4><img src="https://s11.ax1x.com/2024/02/20/pFY0PDf.jpg" height="300px" alt="微信"><h4 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a>QQ</h4><p>当然，qq也可以通过左侧菜单栏中的图标来进行邮件的发送以及好友的添加。</p><img src="https://s11.ax1x.com/2024/02/20/pFY0nvq.jpg" height="395px" alt="微信">]]></content>
       
       
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 我的博客 </tag>
+            
+            <tag> 记录 </tag>
+            
+            <tag> 原创 </tag>
+            
+        </tags>
       
     </entry>
     
