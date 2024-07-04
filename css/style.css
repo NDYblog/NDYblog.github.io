@@ -264,11 +264,11 @@ body:after {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
   height: 3px;
-  background-image: -webkit-linear-gradient(right, rgba(255,0,0,0.75) 50%, transparent 0%);
-  background-image: -moz-linear-gradient(right, rgba(255,0,0,0.75) 50%, transparent 0%);
-  background-image: -o-linear-gradient(right, rgba(255,0,0,0.75) 50%, transparent 0%);
-  background-image: -ms-linear-gradient(right, rgba(255,0,0,0.75) 50%, transparent 0%);
-  background-image: linear-gradient(to left, rgba(255,0,0,0.75) 50%, transparent 0%);
+  background-image: -webkit-linear-gradient(right, rgba(246,119,50,0.75) 50%, transparent 0%);
+  background-image: -moz-linear-gradient(right, rgba(246,119,50,0.75) 50%, transparent 0%);
+  background-image: -o-linear-gradient(right, rgba(246,119,50,0.75) 50%, transparent 0%);
+  background-image: -ms-linear-gradient(right, rgba(246,119,50,0.75) 50%, transparent 0%);
+  background-image: linear-gradient(to left, rgba(246,119,50,0.75) 50%, transparent 0%);
   background-size: 20px 3px;
   background-repeat: repeat-x;
   border: none;
