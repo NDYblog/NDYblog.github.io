@@ -53,20 +53,20 @@
   --cursor-text: url("../images/cursor/reimu-cursor-text.cur"), text;
 }
 [data-theme="dark"]:root {
-  --red-0: #ff5252;
-  --red-1: #ff5252;
-  --red-2: #ff7c7c;
-  --red-3: #ffafaf;
-  --red-4: rgba(255,208,208,0.5);
-  --red-5: rgba(255,228,228,0.2);
-  --red-5-5: rgba(255,236,236,0.1);
-  --red-6: rgba(255,243,243,0.2);
+  --red-0: #f67732;
+  --red-1: #f67732;
+  --red-2: #ffa366;
+  --red-3: #ffb880;
+  --red-4: rgba(255,229,117,0.5);
+  --red-5: rgba(255,239,168,0.2);
+  --red-5-5: rgba(255,244,194,0.1);
+  --red-6: rgba(255,249,221,0.2);
   --color-default-font: #999;
   --color-default: #999;
   --color-grey: #999;
   --color-border: var(--red-5);
   --color-link: var(--red-1);
-  --color-dark-link: #ff0f0f;
+  --color-dark-link: #e3560a;
   --color-background: #21252b;
   --color-code-background: rgba(232,232,232,0.2);
   --color-sidebar-text: #777;
@@ -74,12 +74,20 @@
   --color-footer-background: #21252b;
   --color-mobile-nav-background: #21252b;
   --color-wrap: #272b30;
-  --color-sticky: #ffecec;
+  --color-twitter: #00aced;
+  --color-facebook: #3b5998;
+  --color-pinterest: #cb2027;
+  --color-linkedin: #0077b5;
+  --color-dark-twitter: #008abe;
+  --color-dark-facebook: #2f477a;
+  --color-dark-pinterest: #a21a1f;
+  --color-dark-linkedin: #005f91;
+  --color-sticky: #ffe6c2;
   --color-h2-border: #47474a;
   --color-meta-shadow: rgba(0,0,0,0.2);
   --color-hover-shadow: rgba(0,0,0,0.2);
-  --color-h2-after: #ff5252;
-  --color-h2-after-shadow: rgba(255,78,106,0.7);
+  --color-h2-after: #f67732;
+  --color-h2-after-shadow: rgba(255,130,60,0.7);
   --highlight-nav: #2e353f;
   --highlight-scrollbar: #454d59;
   --highlight-background: #22272e;
@@ -182,7 +190,7 @@ body:after {
   margin: 10px 0;
   opacity: 0.3;
   height: 2px;
-  background-image: linear-gradient(to right, rgba(255,0,0,0.75) 50%, transparent 0%);
+  background-image: linear-gradient(to right, rgba(246,119,50,0.75) 50%, transparent 0%);
   background-size: 25px 2px;
   background-repeat: repeat-x;
   border: none;
@@ -1764,7 +1772,7 @@ a.article-title:hover {
   opacity: 0.3;
   width: 200%;
   height: 10px;
-  background: linear-gradient(to left, rgba(255,0,0,0.75) 50%, transparent 0%) repeat-x 0 0/100px 10px;
+  background: linear-gradient(to left, rgba(255,112,0,0.75) 50%, transparent 0%) repeat-x 0 0/100px 10px;
   transition: opacity 0.3s ease;
   animation: transform-all 3s linear infinite;
   filter: drop-shadow(0px 0px 2px #f00);
@@ -2622,7 +2630,7 @@ pre .javascript .function {
   opacity: 0;
   object-fit: cover;
   margin: 20px;
-  box-shadow: 0 0 15px 5px rgba(255,0,0,0.2);
+  box-shadow: 0 0 15px 5px rgba(255,112,0,0.2);
 }
 .sidebar-author img.lazyloaded {
   opacity: 1;
@@ -2631,7 +2639,7 @@ pre .javascript .function {
 .sidebar-author .sidebar-author-name {
   font-weight: bold;
   font-size: 20px;
-  color: #f77;
+  color: #ff8c4d;
   margin: 10px;
 }
 .sidebar-author .sidebar-description {
@@ -2664,10 +2672,10 @@ pre .javascript .function {
   opacity: 1;
 }
 .sidebar-state .sidebar-state-article {
-  border-right: 1px solid rgba(255,0,0,0.5);
+  border-right: 1px solid rgba(255,112,0,0.5);
 }
 .sidebar-state .sidebar-state-tag {
-  border-left: 1px solid rgba(255,0,0,0.5);
+  border-left: 1px solid rgba(255,112,0,0.5);
 }
 .sidebar-state .sidebar-state-number {
   font-weight: bold;
@@ -2791,7 +2799,7 @@ pre .javascript .function {
   display: flex;
   position: relative;
   justify-content: center;
-  border: 10px rgba(255,0,0,0.3) double;
+  border: 10px rgba(255,112,0,0.3) double;
   border-radius: 10px;
   transition: border 0.5s ease;
 }
@@ -2820,7 +2828,7 @@ pre .javascript .function {
 .link-active {
   background: var(--red-0);
   border: 10px var(--color-wrap) double;
-  box-shadow: 0 0 10px 3px rgba(255,0,0,0.3);
+  box-shadow: 0 0 10px 3px rgba(255,112,0,0.3);
   opacity: 0.8;
   transition: border opacity 0.5s ease;
 }
