@@ -292,7 +292,7 @@
     const gitalk = new Gitalk(Object.assign({
       clientID: 'Ov23lipUgK4PheAVcsvZ',
       clientSecret: 'e57e144c25c1a0e298c92f789c4a06baf3885eb6',
-      repo: 'NDYblog',
+      repo: 'comments',
       owner: 'NDYblog',
       admin: ['NDYblog'],
       id: '70ff332183b397349e1c84a5e28d78a3',
@@ -413,7 +413,7 @@
   }
 
   const getComment = () => {
-    fetch('https://api.github.com/repos/NDYblog/NDYblog/issues/comments?sort=updated&direction=desc&per_page=6&page=1',{
+    fetch('https://api.github.com/repos/NDYblog/comments/issues/comments?sort=updated&direction=desc&per_page=6&page=1',{
       "headers": {
         Accept: 'application/vnd.github.v3.html+json'
       }
