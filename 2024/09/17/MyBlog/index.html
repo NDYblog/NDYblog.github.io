@@ -168,7 +168,7 @@
   title="联 系 我"><i class="far fa-hand-point-right"></i><span>联 系 我</span></a>
 
 <blockquote>
-<p>当然，你也可以直接通过邮件：<strong><a href="mailto:&#110;&#x64;&#121;&#105;&#x61;&#110;&#x40;&#102;&#x6f;&#x78;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#110;&#x64;&#121;&#105;&#x61;&#110;&#x40;&#102;&#x6f;&#x78;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></strong>来联系我。</p>
+<p>当然，你也可以直接通过邮件：<strong><a href="mailto:&#110;&#x64;&#x79;&#x69;&#97;&#x6e;&#x40;&#x66;&#x6f;&#x78;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#110;&#x64;&#x79;&#x69;&#97;&#x6e;&#x40;&#x66;&#x6f;&#x78;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></strong>来联系我。</p>
 </blockquote>
 <!-- #### 微信
 <img src="https://pic.imgdb.cn/item/65da4d939f345e8d03339bf7.jpg" width="45%" alt="微信">
@@ -182,7 +182,7 @@
     const gitalk = new Gitalk(Object.assign({
       clientID: 'Ov23lipUgK4PheAVcsvZ',
       clientSecret: 'e57e144c25c1a0e298c92f789c4a06baf3885eb6',
-      repo: 'NDYblog/NDYblog.github.io',
+      repo: 'NDYblog',
       owner: 'NDYblog',
       admin: ['NDYblog'],
       id: '90f8336e8a39f1e26d484d809a77ea74',
@@ -303,7 +303,7 @@
   }
 
   const getComment = () => {
-    fetch('https://api.github.com/repos/NDYblog/NDYblog/NDYblog.github.io/issues/comments?sort=updated&direction=desc&per_page=6&page=1',{
+    fetch('https://api.github.com/repos/NDYblog/NDYblog/issues/comments?sort=updated&direction=desc&per_page=6&page=1',{
       "headers": {
         Accept: 'application/vnd.github.v3.html+json'
       }
