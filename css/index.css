@@ -1441,30 +1441,12 @@ h6 code {
 .table-wrap {
   overflow-x: scroll;
   margin: 0 0 20px;
-  border-radius: 5px;
-}
-.table-wrap table {
-  border-radius: 5px;
-}
-.table-wrap table thead > tr:first-child th:first-child {
-  border-top-left-radius: 5px;
-}
-.table-wrap table thead > tr:first-child th:last-child {
-  border-top-right-radius: 5px;
-}
-.table-wrap table tbody > tr:last-child td:first-child {
-  border-bottom-left-radius: 5px;
-}
-.table-wrap table tbody > tr:last-child td:last-child {
-  border-bottom-right-radius: 5px;
 }
 table {
   display: table;
   width: 100%;
   border-spacing: 0;
-  border-collapse: separate;
-  border-top: 1px solid var(--light-grey);
-  border-left: 1px solid var(--light-grey);
+  border-collapse: collapse;
   empty-cells: show;
 }
 table thead {
@@ -1474,8 +1456,6 @@ table th,
 table td {
   padding: 6px 12px;
   border: 1px solid var(--light-grey);
-  border-top: none;
-  border-left: none;
   vertical-align: middle;
 }
 *::selection {
